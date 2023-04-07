@@ -2,7 +2,7 @@ nav{
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 25% 75%;
     font-weight: 600;
     padding: 10px 0px;
 }

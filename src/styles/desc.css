@@ -3,8 +3,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 500px;
+    width: 90%;
     margin: 50px auto;
+}
+.desc-content{
+    width: 500px;
 }
 .desc-heading h1, .desc-content p{
     text-align: center;
@@ -24,8 +27,8 @@
 .desc-container div{
     margin-bottom: 15px;
 }
-.desc-container img{
-    width: 1000px;
+.desc-video img{
+    width: 100%;
     height: 500px;
 }
 .desc-video{
