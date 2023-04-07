@@ -22,7 +22,7 @@ function Desc() {
                 Sign up
             </button>
         </div>
-        <div>
+        <div className='desc-video'>
             <img src={video} alt="" />
         </div>
     </div>

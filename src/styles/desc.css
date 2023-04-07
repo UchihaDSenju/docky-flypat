@@ -9,6 +9,9 @@
 .desc-heading h1, .desc-content p{
     text-align: center;
 }
+.desc-heading h1{
+    color: whitesmoke;
+}
 .request-btn{
     background-color: #22C55E;
     color: whitesmoke;
@@ -22,6 +25,10 @@
     margin-bottom: 15px;
 }
 .desc-container img{
-    width: 500px;
-    height: 250px;
+    width: 1000px;
+    height: 500px;
+}
+.desc-video{
+    border-radius: 27px;
+    overflow: hidden;
 }
