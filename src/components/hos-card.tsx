@@ -8,9 +8,9 @@ function HosCard() {
         <p>Trusted by top hospitals in the industry</p>
         </div>
         <div className='hos-cards-container'>
-            {hospital.map((hos) => {
+            {hospital.map((hos, index) => {
                 return(
-                    <img src={hos.img} alt="hospitals" />
+                    <img key={index} src={hos.img} alt="hospitals" />
                 )
             })}
         </div>

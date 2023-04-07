@@ -3,6 +3,7 @@ import Desc from './components/desc'
 import Features from './components/features-desc'
 import HosCards from './components/hos-card'
 import Navbar from './components/navbar'
+import Start from './components/start'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       </div>
       <HosCards />
       <Features />
+      <Start />
     </>
   )
 }

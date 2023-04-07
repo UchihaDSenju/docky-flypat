@@ -21,7 +21,7 @@ function Navbar() {
                 </div>
                 <div className='auth-elements'>
                     <button className='login-btn'>Login</button>
-                    <button className='signUp-btn'>Signup</button>
+                    <button className='signUp-btn green-btn'>Signup</button>
                 </div>
             </div>
         </nav>

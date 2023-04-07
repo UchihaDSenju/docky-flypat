@@ -15,10 +15,10 @@ function Desc() {
             </p>
         </div>
         <div className='desc-auth content'>
-            <button className='request-btn'>
+            <button className='request-btn green-btn'>
                 Request a demo
             </button>
-            <button className='signup-btn'>
+            <button className='signup-btn grey-btn'>
                 Sign up
             </button>
         </div>
