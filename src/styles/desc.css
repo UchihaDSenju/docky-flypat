@@ -1,0 +1,27 @@
+.desc-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    margin: 50px auto;
+}
+.desc-heading h1, .desc-content p{
+    text-align: center;
+}
+.request-btn{
+    background-color: #22C55E;
+    color: whitesmoke;
+}
+.signup-btn{
+    background: #404F65;
+    color: whitesmoke;
+    margin-left: 10px ;
+}
+.desc-container div{
+    margin-bottom: 15px;
+}
+.desc-container img{
+    width: 500px;
+    height: 250px;
+}

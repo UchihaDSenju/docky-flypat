@@ -11,3 +11,9 @@ body{
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
 }
+button{
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+}

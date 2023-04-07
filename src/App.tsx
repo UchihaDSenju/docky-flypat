@@ -1,4 +1,5 @@
 import './App.css'
+import Desc from './components/desc'
 import Navbar from './components/navbar'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <div>
         <Navbar />
+        <Desc />
       </div>
     </>
   )
