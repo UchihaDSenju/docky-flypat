@@ -18,6 +18,7 @@
     .hos-cards-container img{
         width: 90px;
         height: 30px;
+        transition: 0.3s;
     }
 }
 @media(max-width: 600px){
@@ -29,5 +30,6 @@
         width: 180px;
         height: 60px;
         margin: 10px;
+        transition: 0.3s;
     }
 }

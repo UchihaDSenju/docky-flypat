@@ -1,7 +1,7 @@
-import img1 from '../assets/Hos-card-1.png'
-import img2 from '../assets/Hos-card-2.png'
-import img3 from '../assets/Hos-card-3.png'
-import img4 from '../assets/Hos-card-4.png'
+import img1 from '../assets/hospitalCards/Hos-card-1.svg'
+import img2 from '../assets/hospitalCards/Hos-card-2.svg'
+import img3 from '../assets/hospitalCards/Hos-card-3.svg'
+import img4 from '../assets/hospitalCards/Hos-card-4.svg'
 
 export const hospital = [
     {

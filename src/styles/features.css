@@ -22,7 +22,7 @@
     text-align: center;
 }
 .icon{
-    font-size: x-large;
+    width: 64px;
     background: #22C55E;
     border-radius: 6px;
     width: fit-content;

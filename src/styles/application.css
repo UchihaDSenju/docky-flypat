@@ -10,6 +10,7 @@
 .hero{
     width: 700px;
     height: 400px;
+    transition: 0.3s;
 }
 .application-container p{
     text-align: center;
@@ -18,4 +19,11 @@
 }
 .buttons{
     margin-top: 20px;
+}
+@media(max-width: 730px){
+    .hero{
+        width: 500px;
+        height: 285px;
+        transition: 0.3s;
+    }
 }

@@ -9,7 +9,7 @@ function Features() {
             {features.map((fdesc, index) => {
               return(
                 <div key={index} className="feature-card">
-                  <div className='icon'>{fdesc.icon}</div>
+                  <div className='icon'><img src={fdesc.icon} alt="icon" /></div>
                   <h3>{fdesc.title}</h3>
                   <p style={{marginTop: '20px'}}>{fdesc.desc}</p>
                 </div>
