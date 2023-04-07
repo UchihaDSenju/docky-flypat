@@ -22,7 +22,13 @@
     text-align: center;
 }
 .icon{
-    font-size: xx-large;
-    color: white;
+    font-size: x-large;
+    background: #22C55E;
+    border-radius: 6px;
+    width: fit-content;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    padding: 15px;
 }
 

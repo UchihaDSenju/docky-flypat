@@ -11,7 +11,7 @@ function Features() {
                 <div className="feature-card">
                   <div className='icon'>{fdesc.icon}</div>
                   <h3>{fdesc.title}</h3>
-                  <p>{fdesc.desc}</p>
+                  <p style={{marginTop: '20px'}}>{fdesc.desc}</p>
                 </div>
               )
             })}
