@@ -1,0 +1,43 @@
+.demo-container{
+    margin-top: 60px;
+}
+.demo-content{
+    background-color: #2A3342;
+    padding: 80px 150px;
+}
+
+.waves{
+    width: 100%;
+    position: relative;
+}
+
+.above{
+    bottom: -7px;
+}
+.below{
+    top: -1px;
+}
+
+.demo-description{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    gap: 5px;
+}
+.demo-points{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+    margin-top: 60px;
+}
+.point-number{
+    background-color: #22C55E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}

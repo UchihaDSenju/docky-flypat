@@ -7,6 +7,7 @@ import HosCards from './components/hos-card'
 import Navbar from './components/navbar'
 import Pricing from './components/pricing'
 import Start from './components/start'
+import Working from './components/working'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <HosCards />
       <Features />
       <Start />
+      <Working />
       <Application />
       <Pricing />
       <Footer />
