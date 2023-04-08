@@ -18,6 +18,10 @@ button{
   width: auto;
   height: 40px;
   font-size: inherit;
+  cursor: pointer;
+}
+a{
+  cursor: pointer;
 }
 .green-btn{
   background-color: #22C55E;

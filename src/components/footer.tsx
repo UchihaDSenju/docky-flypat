@@ -6,13 +6,13 @@ function Footer() {
         <div className='footer-logo'>Logo</div>
         <div className='footer-link-container'>
             <ul className='footer-links'>
-                <li>Product</li>
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>Resources</li>
-                <li>Careers</li>
-                <li>Help</li>
-                <li>Privacy</li>
+                <li><a>Product</a></li>
+                <li><a>Features</a></li>
+                <li><a>Pricing</a></li>
+                <li><a>Resources</a></li>
+                <li><a>Careers</a></li>
+                <li><a>Help</a></li>
+                <li><a>Privacy</a></li>
             </ul>
         </div>
         <hr />

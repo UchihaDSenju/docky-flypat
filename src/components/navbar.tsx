@@ -12,10 +12,10 @@ function Navbar() {
             </div>
             <div>
                 <ul className='nav-elements'>
-                    <li>Product</li>
-                    <li>Feature</li>
-                    <li>Pricing</li>
-                    <li>Resources</li>
+                    <li><a>Product</a></li>
+                    <li><a>Feature</a></li>
+                    <li><a>Pricing</a></li>
+                    <li><a>Resources</a></li>
                 </ul>
             </div>
             <div className='auth-elements'>
