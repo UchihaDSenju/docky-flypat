@@ -1,0 +1,59 @@
+.pricing-container{
+    width: 80%;
+    margin: 150px auto;
+}
+.grey-color{
+    color: grey;
+}
+.elem{
+    margin: 10px 0px;
+}
+.dollar{
+    position: relative;
+    font-size: 23px;
+    top: -17px;
+    margin-right: 5px;
+}
+.priceTag-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.priceTag-card{
+    background: #F7F8F9;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+}
+.card-title{
+    color: #22C55E;
+}
+.priceTag-card h1{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 40px;
+}
+.planCycle{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 25px;
+}
+.priceTag-card li{
+    margin-bottom: 20px;
+}
+
+.benefit-list li{
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+
+.benefit-list img{
+    background-color: #22C55E;
+    border: 2px solid #16A34A;
+    padding: 2px;
+    border-radius: 50%;
+    margin-right: 3px;
+}

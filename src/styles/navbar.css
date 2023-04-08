@@ -15,11 +15,11 @@ nav{
     justify-content: space-evenly;
     align-items: center;
 }
-ul{
+nav ul{
     display: flex;
     justify-content: center;
 }
-li{
+nav li{
     display: inline-block;
     margin-left: 10px;
     font-weight: 500;

@@ -4,6 +4,7 @@ import Desc from './components/desc'
 import Features from './components/features-desc'
 import HosCards from './components/hos-card'
 import Navbar from './components/navbar'
+import Pricing from './components/pricing'
 import Start from './components/start'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Features />
       <Start />
       <Application />
+      <Pricing />
     </>
   )
 }
