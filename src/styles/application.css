@@ -8,8 +8,8 @@
     margin-top: 100px;
 }
 .hero{
-    width: 700px;
-    height: 400px;
+    width: 900px;
+    height: 500px;
     transition: 0.3s;
 }
 .application-container p{
@@ -20,7 +20,7 @@
 .buttons{
     margin-top: 20px;
 }
-@media(max-width: 730px){
+@media(max-width: 930px){
     .hero{
         width: 500px;
         height: 285px;

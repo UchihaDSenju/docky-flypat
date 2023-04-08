@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/application.css'
-import hero from '../assets/applicationHero.png'
+import hero from '../assets/systemLogo.svg'
 
 function Application() {
   return (
