@@ -2,6 +2,7 @@ import './App.css'
 import Application from './components/application'
 import Desc from './components/desc'
 import Features from './components/features-desc'
+import Footer from './components/footer'
 import HosCards from './components/hos-card'
 import Navbar from './components/navbar'
 import Pricing from './components/pricing'
@@ -22,6 +23,7 @@ function App() {
       <Start />
       <Application />
       <Pricing />
+      <Footer />
     </>
   )
 }
