@@ -14,7 +14,7 @@
     background-color: #F7F8F9;
     padding: 30px;
 }
-@media(max-width: 840px){
+@media(max-width: 960px){
     .hos-cards-container img{
         width: 90px;
         height: 30px;

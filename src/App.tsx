@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div style={{height: '900px'}}>
+      <div>
         <div className='header-container'>
           <Navbar />
           <Desc />

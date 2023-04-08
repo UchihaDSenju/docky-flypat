@@ -1,5 +1,10 @@
 .header-container{
-    background: #20ab88;
-    height: 500px;
-    background: radial-gradient(#20ab88, #0c8b6c, #075844);
+    background-image: url('./assets/pattern.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
 }
+/* @media(max-width: 740px){
+    .header-container{
+        background-size: 100% 700px;
+    }
+} */

@@ -10,19 +10,17 @@ function Navbar() {
                 <img src={logo} alt="logo here" />
                 <div id='bar'><FaBars /></div>
             </div>
-            <div className='nav-content'>
-                <div>
-                    <ul className='nav-elements'>
-                        <li>Product</li>
-                        <li>Feature</li>
-                        <li>Pricing</li>
-                        <li>Resources</li>
-                    </ul>
-                </div>
-                <div className='auth-elements'>
-                    <button className='login-btn'>Login</button>
-                    <button className='signUp-btn green-btn'>Signup</button>
-                </div>
+            <div>
+                <ul className='nav-elements'>
+                    <li>Product</li>
+                    <li>Feature</li>
+                    <li>Pricing</li>
+                    <li>Resources</li>
+                </ul>
+            </div>
+            <div className='auth-elements'>
+                <button className='login-btn'>Login</button>
+                <button className='signUp-btn green-btn'>Signup</button>
             </div>
         </nav>
     </>
