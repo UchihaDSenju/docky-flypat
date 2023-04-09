@@ -3,7 +3,7 @@
 }
 .demo-content{
     background-color: #2A3342;
-    padding: 80px 150px;
+    padding: 80px 10%;
 }
 
 .waves{
@@ -12,7 +12,7 @@
 }
 
 .above{
-    bottom: -7px;
+    bottom: -8px;
 }
 .below{
     top: -1px;
