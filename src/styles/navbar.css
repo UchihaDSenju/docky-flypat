@@ -41,7 +41,7 @@ nav img{
     font-size: inherit;
 }
 
-@media(max-width: 740px){
+@media(max-width: 820px){
     nav{
         grid-template-columns: 1fr
     }

@@ -37,3 +37,30 @@ a{
 .white-color{
   color: whitesmoke;
 }
+
+
+@media(max-width: 820px){
+  .feature-cards{
+    grid-template-columns: 1fr;
+  }
+  .demo-description{
+    grid-template-columns: 1fr;
+  }
+  .demo-video-container{
+    margin: 30px 0px;
+  }
+  .demo-points{
+    grid-template-columns: 1fr;
+  }
+  .priceTag-cards{
+    flex-direction: column;
+  }
+  .priceTag-card{
+    width: 70%;
+    margin: 0px auto;
+  }
+  .benefit-list{
+    width: fit-content;
+    margin: 0px auto;
+  }
+}
