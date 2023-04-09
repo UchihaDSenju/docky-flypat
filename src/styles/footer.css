@@ -12,6 +12,7 @@
 .footer-links{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .footer-links li a, .copyright{
     color: #8896AB;

@@ -40,6 +40,17 @@ a{
 
 
 @media(max-width: 820px){
+
+  .desc-heading h1{
+    font-size: xx-large;
+  }
+  .desc-content p{
+    font-size: small;
+  }
+  .content{
+    width: 90%;
+  }
+
   .feature-container{
     padding: 50px 0px;
     margin: 40px 0px;
@@ -81,6 +92,11 @@ a{
   }
   .point-content{
     width: 90%;
+  }
+
+  .hero{
+    width: 350px;
+    height: 300px;
   }
 
   .priceTag-cards{
