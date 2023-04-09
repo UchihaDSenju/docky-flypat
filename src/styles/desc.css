@@ -35,9 +35,10 @@
 } */
 .desc-video img{
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 .desc-video{
     border-radius: 27px;
     overflow: hidden;
+    height: 500px;
 }
