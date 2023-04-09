@@ -1,14 +1,19 @@
 import logo from '../assets/demoLogo.png'
 import '../styles/navbar.css'
 import { FaBars } from "react-icons/fa";
+import { useRef } from 'react';
 
 function Navbar() {
+    const nav = useRef<HTMLElement>(null);
+    const classToggle = function (){
+        nav.current?.classList.toggle('clicked')
+    }
   return (
     <>
-        <nav>
+        <nav ref={nav}>
             <div className='nav-logotainer'>
                 <img src={logo} alt="logo here" />
-                <div id='bar'><FaBars /></div>
+                <div onClick={classToggle} id='bar'><FaBars /></div>
             </div>
             <div>
                 <ul className='nav-elements'>

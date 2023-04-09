@@ -1,0 +1,3 @@
+background image fix in header
+navbar changes
+footer changes
