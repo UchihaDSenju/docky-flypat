@@ -1,0 +1,17 @@
+.badge-container{
+    width: fit-content;
+    background: #DCFCE7;
+    padding: 2px 8px;
+    gap: 2px;
+    border-radius: 36px;
+}
+.badge-content{
+    color: #22C55E;
+    text-transform: uppercase;
+}
+.badge-container.header{
+    background-color: #22C55E;
+}
+.badge-container.header .badge-content{
+    color: white;
+}

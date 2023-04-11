@@ -1,8 +1,10 @@
 import { features } from '../helpers/features'
 import '../styles/features.css'
+import Badge from './badge'
 function Features() {
   return (
     <div className='feature-container'>
+      <Badge content='features' />
         <h1 className='feature-content feature-heading'>Gain more insight into how people use your</h1>
         <p className='grey-color feature-content'>With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.</p>
         <div className='feature-cards'>

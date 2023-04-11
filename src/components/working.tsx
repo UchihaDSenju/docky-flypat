@@ -4,13 +4,14 @@ import wavesTop from '../assets/working-container-waves/wave-top.svg'
 import '../styles/working.css'
 import DemoPoint from './demo-point'
 import { points } from '../helpers/demo-points'
+import Badge from './badge'
 
 function Working() {
   return (
     <div className='demo-container'>
       <img className='waves above' src={wavesTop} alt="waves" />
       <div className='demo-content'>
-
+        <Badge content='how it works' />
         <div className='demo-description'>
           <div>
             <h1 className='white-color'>Gain more insight into how people use your</h1>

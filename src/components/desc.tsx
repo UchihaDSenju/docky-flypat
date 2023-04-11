@@ -1,9 +1,11 @@
 import '../styles/desc.css'
 import video from '../assets/video.jpg'
+import Badge from './badge'
 
 function Desc() {
   return (
     <div className='desc-container'>
+        <Badge isHeader={true} content='header' />
         <div className='desc-heading content'>
             <h1>
                 Every Hospital is as efficient as its tools
