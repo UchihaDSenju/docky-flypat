@@ -1,4 +1,4 @@
-import logo from '../assets/demoLogo.png'
+import logo from '../assets/docky-logo.svg'
 import '../styles/navbar.css'
 import { FaBars } from "react-icons/fa";
 import { useRef } from 'react';
@@ -12,7 +12,7 @@ function Navbar() {
     <>
         <nav ref={nav}>
             <div className='nav-logotainer'>
-                <img src={logo} alt="logo here" />
+                <img className='docky-logo' src={logo} alt="logo here" />
                 <div onClick={classToggle} id='bar'><FaBars /></div>
             </div>
             <div>

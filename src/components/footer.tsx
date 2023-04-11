@@ -1,9 +1,9 @@
 import '../styles/footer.css' 
-
+import logo from '../assets/docky-logo.svg'
 function Footer() {
   return (
     <footer className='footer-container'>
-        <div className='footer-logo'>Logo</div>
+        <div className='footer-logo'><img className='docky-logo' src={logo} alt="logo here" /></div>
         <div className='footer-link-container'>
             <ul className='footer-links'>
                 <li><a>Product</a></li>
