@@ -8,7 +8,7 @@ function Start() {
             <h2 style={{color: 'whitesmoke'}}>
                 the fastest way from idea to live site. Period.
             </h2>
-            <p style={{color: 'grey'}}>
+            <p className='p-20' style={{color: 'grey'}}>
             Flex is a Small SaaS Business. Flex isn’t a traditional company.
             </p>
         </div>

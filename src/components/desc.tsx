@@ -12,7 +12,7 @@ function Desc() {
             </h1>
         </div>
         <div className='desc-content content'>
-            <p>
+            <p className='p-20'>
                 We’re different. Docky is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels.
             </p>
         </div>

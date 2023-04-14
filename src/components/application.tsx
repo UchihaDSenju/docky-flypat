@@ -9,7 +9,7 @@ function Application() {
       <Badge content='application' />
       <h1 style={{textAlign: 'center', marginBottom: '20px'}}>Great work starts with your app</h1>
       <img className='hero' src={hero} alt="" />
-      <p className='application-desc'>Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do you best work.</p>
+      <p className='application-desc p-20'>Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do you best work.</p>
       <div className="buttons">
           <button className="green-btn">Learn More</button>
           <button style={{marginLeft: '10px'}}>About Us</button>

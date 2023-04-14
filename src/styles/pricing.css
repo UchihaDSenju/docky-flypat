@@ -7,10 +7,11 @@
 }
 .elem{
     margin: 10px 0px;
+    font-weight: 500;
 }
 .dollar{
     position: relative;
-    font-size: 23px;
+    font-size: 24px;
     top: -17px;
     margin-right: 5px;
 }
@@ -29,6 +30,10 @@
 }
 .card-title{
     color: #22C55E;
+    font-size: 20px;
+}
+.priceTag-badge{
+    margin: 0px auto;
 }
 .priceTag-card h1{
     display: inline-block;

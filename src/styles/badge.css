@@ -8,6 +8,7 @@
 .badge-content{
     color: #22C55E;
     text-transform: uppercase;
+    font-size: 12px;
 }
 .badge-container.header{
     background-color: #22C55E;

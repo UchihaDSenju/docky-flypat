@@ -15,7 +15,7 @@ function Working() {
         <div className='demo-description'>
           <div>
             <h1 className='white-color'>Gain more insight into how people use your</h1>
-            <p style={{marginTop: '10px'}} className='grey-color'>With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage your business in one secure platform.</p>
+            <p style={{marginTop: '10px'}} className='grey-color p-20'>With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage your business in one secure platform.</p>
           </div>
           <div className='demo-video-container'><img className='demo-video' style={{width: '100%'}} src={demoVid} alt="" /></div>
         </div>
