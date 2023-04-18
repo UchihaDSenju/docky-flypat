@@ -92,6 +92,7 @@ a{
   }
 
   .feature-container{
+    display: none;
     padding: 50px 0px;
     margin: 40px 0px;
   }
@@ -110,11 +111,15 @@ a{
   }
 
   .getStarted-container{
+    display: none;
     grid-template-columns: 1fr;
     padding: 40px;
     transition: 0.3s;
   }
 
+  .demo-container{
+    display: none;
+  }
   .demo-content{
     padding: 30px;
   }
@@ -137,11 +142,18 @@ a{
     width: 90%;
   }
 
+  .application-container{
+    width: 90%;
+  }
+
   .hero{
     width: 350px;
     height: 300px;
   }
 
+  .pricing-container{
+    width: 100%;
+  }
   .priceTag-cards{
     flex-direction: column;
   }

@@ -23,13 +23,15 @@
 }
 @media(max-width: 600px){
     .hos-cards-container{
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
         
     }
     .hos-cards-container img{
-        width: 180px;
-        height: 60px;
-        margin: 10px;
+        width: 90px;
+        height: 30px;
+        margin: 10px auto;
         transition: 0.3s;
     }
 }

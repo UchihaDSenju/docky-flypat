@@ -1,23 +1,23 @@
 export const prices = [
     {
-        plan: 'Basic Plan',
-        price: 10,
+        plan: 'Starter',
+        price: 9,
         planCycle: 'mth',
         billPlan: 'Billed Annually',
-        planBenefits: ['Complete Documentation', 'Working materials with Figma', '100GB Cloud Storage', '500 Team members']
+        planBenefits: ['3 Apps', '12 hours of Chat', '30 GB cloud storage', '6 team members']
     },
     {
-        plan: 'Freelancer Plan',
-        price: 99,
+        plan: 'Scaler',
+        price: 39,
         planCycle: 'mth',
         billPlan: 'Billed Annually',
-        planBenefits: ['Complete Documentation', 'Working materials with Figma', '100GB Cloud Storage', '500 Team members']
+        planBenefits: ['5 Apps', 'Chat & Mail Support', '100 GB cloud storage', '18 team members']
     },
     {
-        plan: 'Enterprise Plan',
-        price: 799,
+        plan: 'PRO',
+        price: 69,
         planCycle: 'year',
         billPlan: 'Billed Annually',
-        planBenefits: ['Complete Documentation', 'Working materials with Figma', '100GB Cloud Storage', '500 Team members']
+        planBenefits: ['8 Apps', 'Chat, Mail & Voice Support', '1 TB cloud storage', '36 team members']
     },
 ]
