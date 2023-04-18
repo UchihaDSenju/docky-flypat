@@ -8,7 +8,7 @@ function Desc() {
         <Badge isHeader={true} content='header' />
         <div className='desc-heading content'>
             <h1>
-                Every Hospital is as efficient as its tools
+                Every Hospital is as <span className='desc-heading-effi'>efficient</span> as its <span className='desc-heading-tools'>tools</span>. 
             </h1>
         </div>
         <div className='desc-content content'>
@@ -17,12 +17,13 @@ function Desc() {
             </p>
         </div>
         <div className='desc-auth'>
-            <button className='request-btn green-btn'>
+            <button className='request-btn grey-btn'>
                 Request a demo
             </button>
-            <button className='signup-btn grey-btn'>
+            <button className='signup-btn green-btn'>
                 Sign up
             </button>
+            <button className='watch-btn transparent-btn'>Watch Video</button>
         </div>
         <div className='desc-video'>
             <img src={video} alt="" />

@@ -27,8 +27,14 @@
     width: 100%;
     margin: 0px auto;
 }
-.signup-btn{
+.desc-heading-effi, .desc-heading-tools{
+    color: whitesmoke;
+}
+.signup-btn, .watch-btn{
     margin-left: 10px ;
+}
+.watch-btn{
+    display: none;
 }
 /* .desc-container div{
     margin-bottom: 60px;
@@ -36,6 +42,7 @@
 .desc-video img{
     width: 100%;
     height: 100%;
+    aspect-ratio: 16/9;
 }
 .desc-video{
     border-radius: 27px;

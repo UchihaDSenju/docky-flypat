@@ -5,6 +5,9 @@
   color: black;
   list-style: none;
 }
+.badge-container{
+  display: none;
+}
 body{
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
@@ -30,6 +33,10 @@ a{
   background-color: #404F65;
   color: whitesmoke;
 }
+.transparent-btn{
+  background-color: transparent;
+  border: 1px solid #404F65;
+}
 .grey-color{
   color: #556987;
 }
@@ -46,16 +53,42 @@ a{
   font-weight: 500;
 }
 
+@media(max-width: 960px){
+  .desc-container .content{
+    width: 100%;
+  }
+}
+
 @media(max-width: 820px){
 
+  .header-container{
+    background: none;
+  }
+
   .desc-heading h1{
+    color: black;
     font-size: xx-large;
   }
+  .desc-heading-effi{
+    color: #48BB78;
+  }
+  .desc-heading-tools{
+    color: #F59E0B;
+  }
   .desc-content p{
-    font-size: small;
+    margin-top: 93px;
+  }
+  .desc-video{
+    display: none;
+  }
+  .signup-btn{
+    display: none;
+  }
+  .watch-btn{
+    display: inline-block;
   }
   .content{
-    width: 90%;
+    width: 80%;
   }
 
   .feature-container{
