@@ -6,15 +6,15 @@ function Start() {
     <div className='getStarted-container'>
         <div className="content">
             <h2 style={{color: 'whitesmoke'}}>
-                the fastest way from idea to live site. Period.
+            "Revolutionize Your Hospital Management with Docky”.
             </h2>
             <p className='p-20' style={{color: 'grey'}}>
-            Flex is a Small SaaS Business. Flex isn’t a traditional company.
+            Docky is a Comprehensive Hopital Management Suite. 
             </p>
         </div>
         <div className="buttons">
-            <button className='green-btn'>get Started</button>
-            <button style={{marginLeft: '10px'}}>Learn more</button>
+            <button className='green-btn'>Get Started</button>
+            <button style={{marginLeft: '10px'}}>Learn More</button>
         </div>
     </div>
   )

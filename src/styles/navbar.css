@@ -6,8 +6,17 @@ nav{
     font-weight: 600;
     padding: 10px 0px;
 }
-#bar{
+.nav-bars-btn{
     display: none;
+}
+.nav-bars-btn button{
+    margin-right: 25px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+}
+#bar{
+    display: flex;
     font-size: x-large;
 }
 .nav-content{
@@ -45,9 +54,6 @@ nav img{
 @media(max-width: 820px){
     nav{
         grid-template-columns: 1fr
-    }
-    #bar{
-        display: block;
     }
     .nav-logotainer{
         display: flex;

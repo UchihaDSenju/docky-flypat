@@ -13,7 +13,10 @@ function Navbar() {
         <nav ref={nav}>
             <div className='nav-logotainer'>
                 <img className='docky-logo' src={logo} alt="logo here" />
-                <div onClick={classToggle} id='bar'><FaBars /></div>
+                <div className="nav-bars-btn">
+                    <button className="green-btn">Sign up</button>
+                    <div onClick={classToggle} id='bar'><FaBars /></div>
+                </div>
             </div>
             <div>
                 <ul className='nav-elements'>

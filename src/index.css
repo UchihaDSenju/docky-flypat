@@ -61,6 +61,11 @@ a{
 
 @media(max-width: 820px){
 
+  .nav-bars-btn{
+    display: flex;
+    align-items: center;
+  }
+
   .header-container{
     background: none;
   }
