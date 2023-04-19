@@ -3,6 +3,7 @@ import logo from '../assets/docky-logo.svg'
 function Footer() {
   return (
     <footer className='footer-container'>
+      <h1 className="footer-mob-header white-color">"Revolutionize Your Hospital Management with Docky”.</h1>
         <div className='footer-logo'><img className='docky-logo' src={logo} alt="logo here" /></div>
         <div className='footer-link-container'>
             <ul className='footer-links'>

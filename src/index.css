@@ -5,9 +5,9 @@
   color: black;
   list-style: none;
 }
-.badge-container{
+/* .badge-container{
   display: none;
-}
+} */
 body{
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
@@ -173,6 +173,19 @@ a{
   .benefit-list{
     width: fit-content;
     margin: 0px auto;
+  }
+
+  .footer-container{
+    border-radius: 20px 20px 0px 0px;
+  }
+  .footer-link-container{
+    display: none;
+  }
+  .footer-mob-header{
+    display: inline-block;
+  }
+  footer hr{
+    display: none;
   }
 }
 

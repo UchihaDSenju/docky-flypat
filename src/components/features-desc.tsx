@@ -5,8 +5,8 @@ function Features() {
   return (
     <div className='feature-container'>
       <Badge content='features' />
-        <h1 className='feature-content feature-heading'>Gain more insight into how people use your</h1>
-        <p className='grey-color feature-content p-20'>With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.</p>
+        <h1 className='feature-content feature-heading'>Everything you need to run your hospital</h1>
+        <p className='grey-color feature-content p-20'>Streamline your hospital management and improve patient care, Docky is the perfect solution. With a range of features designed specifically for hospital owners, increased efficiency, improved patient care, and cost savings.</p>
         <div className='feature-cards'>
             {features.map((fdesc, index) => {
               return(

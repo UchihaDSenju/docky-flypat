@@ -9,7 +9,7 @@ function Application() {
       <Badge content='application' />
       <h1 style={{textAlign: 'center', marginBottom: '20px'}}>8 apps, All-in-One Suite</h1>
       <img className='hero' src={hero} alt="" />
-      <p className='application-desc p-20'>Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do you best work.</p>
+      <p className='application-desc p-20'>With a range of features designed specifically for hospital owners, you can enjoy increased efficiency, improved patient care, and cost savings.</p>
       <div className="buttons">
           <button className="green-btn">Learn More</button>
           <button style={{marginLeft: '10px'}}>About Us</button>

@@ -9,7 +9,7 @@ function Pricing() {
     <div className='pricing-container'>
       <Badge content='pricing' />
       <h1 className='pricing-heading' style={{marginBottom: '20px', textAlign: 'center'}}>Flexible pricing plan for your startup</h1>
-      <p style={{marginBottom: '60px', textAlign: 'center'}}>Prices that scale with your business immediately</p>
+      <p className='p-20' style={{marginBottom: '60px', textAlign: 'center', color: '#556987'}}>Prices that scale with your business immediately</p>
       <div className='priceTag-cards'>
         {prices.map((p, index) => {
           return(

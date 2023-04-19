@@ -8,14 +8,14 @@ import settings from '../assets/featureIcons/setting.svg'
 const style = { color: "white", fontSize: "1.5em" }
 export const features = [
     {
-        icon: mail,
-        title: 'Measure your performance',
-        desc: 'Stay connected with your team and make quick decisions wherever you are. '
+        icon: app,
+        title: 'EMR, DHIS, ABDM',
+        desc: 'The first business platform to bring together all of your products from to One place.'
     },
     {
-        icon: analytics,
-        title: 'Custom analytics',
-        desc: 'Get a complete sales dashboard in the cloud. See activity, revenue and social metrics all in one place.'
+        icon: design,
+        title: 'Enhanced Integrations',
+        desc: 'A tool that allows you to create, Manage multiple integrations with your vendors, insurance providers & business apps.'
     },
     {
         icon: teams,
@@ -23,14 +23,14 @@ export const features = [
         desc: 'Our calendar lets you know what is happening with customer and projects so you'
     },
     {
-        icon: design,
-        title: 'Build your website',
-        desc: 'A tool that lets you build a dream website even if you know nothing about web design or programming.'
+        icon: mail,
+        title: 'Measure  performance',
+        desc: 'Stay connected with your team and make quick decisions wherever you are.'
     },
     {
-        icon: app,
-        title: 'Connect multiple apps',
-        desc: 'The first business platform to bring together all of your products from one place.'
+        icon: analytics,
+        title: 'Custom analytics',
+        desc: 'Get a complete dashboard in the cloud. See activity, revenue and metrics all in one place.'
     },
     {
         icon: settings,
