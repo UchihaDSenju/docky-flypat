@@ -18,6 +18,11 @@
     top: -1px;
 }
 
+.demo-heading-mob, .demo-desc-mob{
+    text-align: center;
+    display: none;
+}
+
 .demo-description{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -40,4 +45,8 @@
     padding: 10px;
     border-radius: 50%;
     margin-bottom: 20px;
+}
+.point-content h2{
+    font-size: 20px;
+    font-weight: 700;
 }

@@ -38,7 +38,7 @@ a{
   border: 1px solid #404F65;
 }
 .grey-color{
-  color: #556987;
+  color: #8896AB;
 }
 .white-color{
   color: whitesmoke;
@@ -117,16 +117,24 @@ a{
     transition: 0.3s;
   }
 
-  .demo-container{
+  .waves, .demo-video-container{
     display: none;
   }
   .demo-content{
     padding: 30px;
+    border-radius: 20px;
   }
   .demo-description{
     grid-template-columns: 1fr;
     transition: 0.3s;
   }
+  .demo-heading, .demo-desc{
+    display: none;
+  }
+  .demo-heading-mob, .demo-desc-mob{
+    display: inline-block;
+    color: whitesmoke;
+}
   .demo-video-container{
     margin: 30px 0px;
   }
@@ -135,6 +143,7 @@ a{
   }
   .point{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     margin: 20px 0px;
   }
