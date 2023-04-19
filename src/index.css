@@ -5,9 +5,9 @@
   color: black;
   list-style: none;
 }
-/* .badge-container{
+.badge-container{
   display: none;
-} */
+}
 body{
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
