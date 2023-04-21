@@ -17,7 +17,7 @@ function Footer() {
               <li><a href='#pricing'>Pricing</a></li>
               {/* <li style={{display: 'none'}}><a>Resources</a></li>
               <li style={{display: 'none'}}><a>Careers</a></li> */}
-              <li><a>Support</a></li>
+              <li><a target='_blank' href='https://4sjorkcf2bx.typeform.com/to/W5ZqWoKu'>Support</a></li>
               <li><a onClick={() => setButtonPopup(true)}>Privacy</a></li>
             </ul>
         </div>

@@ -17,7 +17,6 @@
     background-color: #2A3342;
     width: 70%;
     height: 500px;
-    overflow-y: scroll;
 }
 .privacy-container h1, h2, p{
     color: rgb(176, 173, 173);
@@ -25,4 +24,8 @@
 .privacy-header{
     display: flex;
     justify-content: space-between;
+}
+.privacy-desc{
+    overflow-y: scroll;
+    height: 360px;
 }

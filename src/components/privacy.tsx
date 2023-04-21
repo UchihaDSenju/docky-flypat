@@ -14,6 +14,7 @@ function Privacy(props:Props) {
                 <h1>Privacy and Policy</h1>
                 <button className='green-btn privacy-close-btn' onClick={() => props.isClose(false)}>close</button>
               </div>
+              <div className="privacy-desc">
                 <p>At Docky.in, we value your privacy and are committed to protecting your personal information. This Privacy Statement outlines how we collect, use, disclose, and protect your personal information.</p>
 
                 <p>Collection of Personal Information
@@ -45,6 +46,7 @@ function Privacy(props:Props) {
 
                 <p className='grey-color'>If you have any questions or concerns about our Privacy Statement or our privacy practices, please contact us at contact@flypat.com</p>
               </div>
+            </div>
         </div>
     </>
   ) : null;
