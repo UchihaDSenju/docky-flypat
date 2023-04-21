@@ -36,6 +36,9 @@ nav{
     /* margin-left: 10px; */
     font-weight: 500;
 }
+.nav-elements li a{
+    color: whitesmoke;
+}
 nav div{
     text-align: center;
 }
@@ -74,7 +77,12 @@ nav img{
         height: 0;
         transition: 0.3s;
     }
-
+    .nav-elements li a, .auth-elements .login-btn{
+        color: black;
+    }
+    .auth-elements .signUp-btn{
+        display: none;
+    }
     nav.clicked .nav-elements, nav.clicked .auth-elements{
         top: 0;
         height: auto;

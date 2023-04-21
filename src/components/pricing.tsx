@@ -6,7 +6,7 @@ import Badge from './badge'
 
 function Pricing() {
   return (
-    <div className='pricing-container'>
+    <div id='pricing' className='pricing-container'>
       <Badge content='pricing' />
       <h1 className='pricing-heading' style={{marginBottom: '20px', textAlign: 'center'}}>Flexible pricing plan for your startup</h1>
       <p className='p-20' style={{marginBottom: '60px', textAlign: 'center', color: '#556987'}}>Prices that scale with your business immediately</p>

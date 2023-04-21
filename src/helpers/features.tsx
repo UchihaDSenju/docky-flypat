@@ -20,7 +20,7 @@ export const features = [
     {
         icon: teams,
         title: 'Team Management',
-        desc: 'Our calendar lets you know what is happening with customer and projects so you'
+        desc: 'Our Calendar lets you know what\'s happening with your teams, vendors  across locations & collaborate seamlessly'
     },
     {
         icon: mail,
@@ -35,6 +35,6 @@ export const features = [
     {
         icon: settings,
         title: 'Easy setup',
-        desc: 'End to End Business Platform, Sales Management, Marketing Automation, Help Desk'
+        desc: 'End to End Business Platform, hospital Management, Lab, Pharmacy, Automation and Help Desk.'
     }
 ]

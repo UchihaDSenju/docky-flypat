@@ -5,11 +5,11 @@ export const points = [
     },
     {
         point: 'Staff Management',
-        desc: 'Docky offers a scheduling tool that helps you manage your staff and ensure that everyone is working efficiently. You can easily assign tasks, and track progress,'
+        desc: 'Docky offers a scheduling tool that helps you manage your staff and ensure that everyone is working efficiently. You can assign tasks easily and track progress.'
     },
     {
         point: 'Record Management',
-        desc: 'EHRs provide a comprehensive way to manage patient records, allowing you to store, retrieve, and share information quickly and easily. accurate and up-to-'
+        desc: 'EHRs provides a comprehensive way to manage patient records, allowing you to store, retrieve, and share information quickly and easily. Accurate and up-to-date.'
     },
     {
         point: 'Laboratory Management',
@@ -17,7 +17,7 @@ export const points = [
     },
     {
         point: 'Inventory Management',
-        desc: 'Docky enables you to keep track of medical supplies and equipment, ensuring that you always have what you need on hand set up automated orders for supplies, which helps you save time and money.'
+        desc: 'Docky enables you to keep track of medical supplies and equipment, ensuring that you always have what you need on hand. Set up automated orders for supplies, which helps you save time and money.'
     },
     {
         point: 'Billing & Invoicing',

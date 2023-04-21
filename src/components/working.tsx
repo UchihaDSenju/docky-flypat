@@ -12,7 +12,7 @@ function Working() {
       <img className='waves above' src={wavesTop} alt="waves" />
       <div className='demo-content'>
         <Badge content='how it works' />
-        <div className='demo-description'>
+        <div id='feature' className='demo-description'>
           <div>
             <h1 className='white-color demo-heading'>Streamline Your Hospital Management with Docky</h1>
             <h1 className='white-color demo-heading-mob'>Everything you need to run your hospital</h1>

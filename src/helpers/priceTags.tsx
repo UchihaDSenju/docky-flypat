@@ -14,7 +14,7 @@ export const prices = [
         planBenefits: ['5 Apps', 'Chat & Mail Support', '100 GB cloud storage', '18 team members']
     },
     {
-        plan: 'PRO',
+        plan: 'Pro',
         price: 69,
         planCycle: 'year',
         billPlan: 'Billed Annually',

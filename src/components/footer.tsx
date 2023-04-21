@@ -11,8 +11,8 @@ function Footer() {
                 <li><a>Features</a></li>
                 <li><a>Pricing</a></li>
                 <li><a>Resources</a></li>
-                <li><a>Careers</a></li>
-                <li><a>Help</a></li>
+                <li style={{display: 'none'}}><a>Careers</a></li>
+                <li><a>Support</a></li>
                 <li><a>Privacy</a></li>
             </ul>
         </div>
