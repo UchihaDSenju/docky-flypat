@@ -23,13 +23,13 @@ function Navbar() {
                     <li><a href='#product'>Product</a></li>
                     <li><a href='#feature'>Feature</a></li>
                     <li><a href='#pricing'>Pricing</a></li>
-                    <li style={{display: 'none'}}><a>Resources</a></li>
+                    {/* <li style={{display: 'none'}}><a>Resources</a></li> */}
                     <li><a target='_blank' href='https://4sjorkcf2bx.typeform.com/to/W5ZqWoKu'>Partner with us</a></li>
                 </ul>
             </div>
             <div className='auth-elements'>
-                <button className='login-btn white-color'>Login</button>
-                <button className='signUp-btn green-btn'>Signup</button>
+                {/* <button style={{display: 'none'}} className='login-btn white-color'>Login</button> */}
+                <button className='signUp-btn green-btn'><a target='_blank' href='https://4sjorkcf2bx.typeform.com/to/UnKttg3B' className='white-color'>SignUp</a></button>
             </div>
         </nav>
     </>

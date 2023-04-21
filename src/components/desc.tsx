@@ -18,10 +18,10 @@ function Desc() {
         </div>
         <div className='desc-auth'>
             <button className='request-btn grey-btn'>
-                Request a demo
+            <a className='white-color' target='_blank' href="https://4sjorkcf2bx.typeform.com/to/Ju4qODxE">Request a Demo</a>
             </button>
             <button className='signup-btn green-btn'>
-                Sign up
+            <a target='_blank' href='https://4sjorkcf2bx.typeform.com/to/UnKttg3B' className='white-color'>SignUp</a>
             </button>
             <button className='watch-btn transparent-btn'>Watch Video</button>
         </div>

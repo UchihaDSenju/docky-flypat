@@ -1,0 +1,28 @@
+.privacy-container{
+    transition: 0.3s;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(149, 143, 143, 0.2);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.privacy-content{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #2A3342;
+    width: 70%;
+    height: 500px;
+    overflow-y: scroll;
+}
+.privacy-container h1, h2, p{
+    color: rgb(176, 173, 173);
+}
+.privacy-header{
+    display: flex;
+    justify-content: space-between;
+}

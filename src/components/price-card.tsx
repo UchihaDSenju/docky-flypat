@@ -26,7 +26,7 @@ function PriceCard(props: Props) {
                 )
             })}
         </ul>
-        <button className="elem green-btn">Request a Demo</button>
+        <button className="elem green-btn"><a className='white-color' target='_blank' href="https://4sjorkcf2bx.typeform.com/to/Ju4qODxE">Request a Demo</a></button>
     </div>
   )
 }

@@ -6,6 +6,7 @@ import Footer from './components/footer'
 import HosCards from './components/hos-card'
 import Navbar from './components/navbar'
 import Pricing from './components/pricing'
+import Privacy from './components/privacy'
 import Start from './components/start'
 import Working from './components/working'
 
