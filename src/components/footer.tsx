@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer className='footer-container'>
       <Privacy isClicked={buttonPopup} isClose={setButtonPopup} />
-      <h1 className="footer-mob-header white-color">"Revolutionize Your Hospital Management with Docky”.</h1>
+      <h1 className="footer-mob-header white-color">"Revolutionize Your Hospital Management with Docky."</h1>
         <div className='footer-logo'><img className='docky-logo' src={logo} alt="logo here" /></div>
         <div className='footer-link-container'>
             <ul className='footer-links'>
