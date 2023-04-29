@@ -13,8 +13,8 @@ function Start() {
             </p>
         </div>
         <div className="buttons">
-            <button className='green-btn'><a className='white-color' target='_blank' href="https://4sjorkcf2bx.typeform.com/to/Ju4qODxE">Get Started</a></button>
-            <button style={{marginLeft: '10px'}}><a target='_blank' href="https://4sjorkcf2bx.typeform.com/to/W5ZqWoKu">Learn More</a></button>
+            <a target='_blank' href="https://4sjorkcf2bx.typeform.com/to/Ju4qODxE"><button className='green-btn white-color'>Get Started</button></a>
+            <a target='_blank' href="https://4sjorkcf2bx.typeform.com/to/W5ZqWoKu"><button style={{marginLeft: '10px'}}>Learn More</button></a>
         </div>
     </div>
   )
