@@ -15,9 +15,9 @@ function Working() {
         <div id='feature' className='demo-description'>
           <div>
             <h1 className='white-color demo-heading'>Streamline Your Hospital Management with Docky</h1>
-            <h1 className='white-color demo-heading-mob'>Everything you need to run your hospital</h1>
+            <h1 className='white-color demo-heading-mob'>Everything you need</h1>
             <p style={{marginTop: '10px'}} className='grey-color p-20 demo-desc'>As a hospital owner, you know how challenging it can be to manage everything from patient records to scheduling staff. A comprehensive solution that simplifies and automates many of the tasks</p>
-            <p style={{marginTop: '8px'}} className='grey-color p-20 demo-desc-mob'>Streamline your hospital management and improve patient care, Docky is the perfect solution. With a range of features designed specifically for hospital owners, increased efficiency, improved patient care, and cost savings. </p>
+            <p style={{marginTop: '8px'}} className='grey-color p-20 demo-desc-mob'>To streamline your hospital management and improve patient care, Docky is the perfect solution with a range of features designed specifically for hospital owners, increased efficiency, improved patient care and cost savings.</p>
           </div>
           <div className='demo-video-container'><img className='demo-video' style={{width: '100%'}} src={demoVid} alt="" /></div>
         </div>

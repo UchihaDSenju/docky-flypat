@@ -6,7 +6,7 @@ function Start() {
     <div className='getStarted-container'>
         <div className="content">
             <h2 style={{color: 'whitesmoke'}}>
-            "Revolutionize Your Hospital Management with Docky”.
+            "Revolutionize Your Hospital Management with Docky.”
             </h2>
             <p className='p-20' style={{color: 'grey'}}>
             Docky is a Comprehensive Hopital Management Suite. 
