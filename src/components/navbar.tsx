@@ -29,7 +29,7 @@ function Navbar() {
             </div>
             <div className='auth-elements'>
                 {/* <button style={{display: 'none'}} className='login-btn white-color'>Login</button> */}
-                <button className='signUp-btn green-btn'><a target='_blank' href='https://4sjorkcf2bx.typeform.com/to/UnKttg3B' className='white-color'>SignUp</a></button>
+                <a target='_blank' href='https://4sjorkcf2bx.typeform.com/to/UnKttg3B'><button className='signUp-btn green-btn white-color'>SignUp</button></a>
             </div>
         </nav>
     </>

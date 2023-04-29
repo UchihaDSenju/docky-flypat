@@ -17,12 +17,12 @@ function Desc() {
             </p>
         </div>
         <div className='desc-auth'>
-            <button className='request-btn grey-btn'>
-            <a className='white-color' target='_blank' href="https://4sjorkcf2bx.typeform.com/to/Ju4qODxE">Request a Demo</a>
-            </button>
-            <button className='signup-btn green-btn'>
-            <a target='_blank' href='https://4sjorkcf2bx.typeform.com/to/UnKttg3B' className='white-color'>SignUp</a>
-            </button>
+            <a target='_blank' href="https://4sjorkcf2bx.typeform.com/to/Ju4qODxE"><button className='request-btn grey-btn white-color'>
+            Request a Demo
+            </button></a>
+            <a target='_blank' href='https://4sjorkcf2bx.typeform.com/to/UnKttg3B'><button className='signup-btn green-btn white-color'>
+            SignUp
+            </button></a>
             <button className='watch-btn transparent-btn'>Watch Video</button>
         </div>
         <div className='desc-video'>
