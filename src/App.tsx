@@ -1,32 +1,11 @@
 import './App.css'
-import Application from './components/application'
-import Desc from './components/desc'
-import Features from './components/features-desc'
-import Footer from './components/footer'
-import HosCards from './components/hos-card'
-import Navbar from './components/navbar'
-import Pricing from './components/pricing'
-import Privacy from './components/privacy'
-import Start from './components/start'
-import Working from './components/working'
+import HomePage from './components/homepage'
 
 function App() {
 
   return (
     <>
-      <div>
-        <div className='header-container'>
-          <Navbar />
-          <Desc />
-        </div>
-      </div>
-      <HosCards />
-      <Features />
-      <Start />
-      <Working />
-      <Application />
-      <Pricing />
-      <Footer />
+      <HomePage />
     </>
   )
 }
