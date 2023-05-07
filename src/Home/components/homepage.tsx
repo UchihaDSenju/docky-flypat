@@ -7,6 +7,7 @@ import Navbar from './navbar'
 import Pricing from './pricing'
 import Start from './start'
 import Working from './working'
+import '../styles/homepage.css'
 
 function HomePage() {
   return (
