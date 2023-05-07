@@ -1,0 +1,25 @@
+#aboutUs-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.nav-content{
+    width: 100%;
+}
+.nav-content ul{
+    margin-left: 10%;
+    width: 100%;
+    display: flex;
+}
+.nav-content li{
+    display: inline-block;
+    margin: 0px 2%;
+}
+.nav-buttons{
+    width: 15%;
+}
+a{
+    font-size: 16px;
+    font-weight: 500;
+}

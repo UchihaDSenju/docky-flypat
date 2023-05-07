@@ -2,8 +2,10 @@ import React from 'react'
 import '../styles/application.css'
 import hero from '../assets/systemLogo.svg'
 import Badge from './badge'
+import { useNavigate } from 'react-router'
 
 function Application() {
+  const navigate = useNavigate()
   return (
     <div className='application-container'>
       <Badge content='application' />
