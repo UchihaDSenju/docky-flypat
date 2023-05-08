@@ -4,7 +4,7 @@ import Illustration from '../assets/desc-Illustration.svg'
 function Desc() {
   return (
     <>
-        <div className="desc-container">
+        <div className="about-desc-container">
             <div className="desc">
                 <h1>Knocking Down Hurdles and Paving the Path for Excellence</h1>
                 <p className='grey-color'>
@@ -14,7 +14,7 @@ From a health center to a Hospital, our products help teams all over the planet 
 Our mission is to help unleash the potential of every team.
                 </p>
             </div>
-            <div className="desc-img"><img src={Illustration} alt="" /></div>
+            <div className="about-desc-img"><img src={Illustration} alt="" /></div>
         </div>
     </>
   )

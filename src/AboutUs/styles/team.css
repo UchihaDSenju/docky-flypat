@@ -1,0 +1,37 @@
+.team-container{
+    background-color: #2a3342;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.team-heading{
+    margin-bottom: 150px;
+}
+.team-heading h1{
+    font-size: 48px;
+    color: white;
+}
+.team-heading p{
+    font-size: 20px;
+}
+.team-member-cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 0% 1%;
+}
+.team-member-card{
+    background-color: white;
+    border-radius: 6px;
+    width: 60%;
+    margin: 10px auto;
+    padding: 20px;
+}
+.team-member-card div{
+    margin: 10px 0px;
+}
+.member-profile img{
+    border-radius: 50%;
+}
