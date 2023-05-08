@@ -6,7 +6,7 @@ import { BrowserRouter, HashRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename='/'>
       <App />
     </HashRouter>
   </React.StrictMode>,
