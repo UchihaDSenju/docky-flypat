@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 30px;
+    padding: 80px 30px;
 }
 .team-heading{
     margin-bottom: 150px;
@@ -34,4 +34,7 @@
 }
 .member-profile img{
     border-radius: 50%;
+}
+.member-connect img{
+    margin: 0px 3px;
 }

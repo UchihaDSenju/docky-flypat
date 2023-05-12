@@ -1,8 +1,9 @@
 .about-desc-container{
     display: grid;
     grid-template-columns: 50% 50%;
-    align-items: center;
-}
+    align-items: center; 
+    padding: 0px 40px;                          
+}             
 .about-desc-img img{
     width: 100%;
 }
