@@ -1,4 +1,6 @@
 import Profile from '../assets/ProfilePhotos/Profile1.svg'
+import Arun from '../assets/ProfilePhotos/Arun Prasad.jpeg'
+import Yazhini from '../assets/ProfilePhotos/Yazhini.jpeg'
 
 export const TeamMembers = [
     {
@@ -14,13 +16,13 @@ export const TeamMembers = [
         quote:'The mind is everything. What you think you become.'
     },
     {
-        profile:Profile,
+        profile:Yazhini,
         name:'Yaz',
         role:'Head-Culture',
         quote:'The mind is everything. What you think you become.'
     },
     {
-        profile:Profile,
+        profile:Arun,
         name:'Arun Prasad',
         role:'Head Growth',
         quote:'The mind is everything. What you think you become.'
