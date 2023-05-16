@@ -2,6 +2,7 @@ import logo from '../assets/docky-logo.svg'
 import '../styles/navbar.css'
 import { FaBars } from "react-icons/fa";
 import { useRef } from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
     const nav = useRef<HTMLElement>(null);
@@ -12,7 +13,7 @@ function Navbar() {
     <>
         <nav ref={nav}>
             <div className='nav-logotainer'>
-                <img className='docky-logo' src={logo} alt="logo here" />
+                <NavLink to={'/'}><img className='docky-logo' src={logo} alt="logo here" /></NavLink>
                 <div className="nav-bars-btn">
                     <button className="green-btn">Sign up</button>
                     <div onClick={classToggle} id='bar'><FaBars /></div>
