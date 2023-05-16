@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "serveprod": "npm run build && http-server --proxy http://localhost:8080? ./build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",

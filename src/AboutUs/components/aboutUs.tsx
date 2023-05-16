@@ -3,6 +3,7 @@ import Navbar from './navbar'
 import Desc from './desc'
 import Footer from '../../Home/components/footer'
 import Team from './team'
+import '../styles/about-us.css'
 
 function About() {
   return (
