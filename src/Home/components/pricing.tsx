@@ -13,7 +13,7 @@ function Pricing() {
       <div className='priceTag-cards'>
         {prices.map((p, index) => {
           return(
-            <PriceCard key={index} plan={p.plan} price={p.price} planCycle={p.planCycle} billPlan={p.billPlan} planBenefits={p.planBenefits}/>
+            <PriceCard key={index} plan={p.plan} price={p.price} planCycle={p.planCycle} billPlan={p.billPlan} planBenefits={p.planBenefits} btnClass={p.btnClass}/>
           )
         })}
       </div>

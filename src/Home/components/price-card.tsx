@@ -6,7 +6,8 @@ type Props = {
     price: number,
     planCycle: string,
     billPlan: string,
-    planBenefits: string[]
+    planBenefits: string[],
+    btnClass: string
 }
 
 function PriceCard(props: Props) {
@@ -26,7 +27,7 @@ function PriceCard(props: Props) {
                 )
             })}
         </ul>
-        <a target='_blank' href="https://4sjorkcf2bx.typeform.com/to/Ju4qODxE"><button style={{width: '100%'}} className="elem green-btn white-color">Request a Demo</button></a>
+        <a target='_blank' href="https://4sjorkcf2bx.typeform.com/to/Ju4qODxE"><button style={{width: '100%'}} className={props.btnClass}>Request a Demo</button></a>
     </div>
   )
 }
