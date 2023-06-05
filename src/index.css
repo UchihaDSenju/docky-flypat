@@ -30,7 +30,11 @@ a{
   color: whitesmoke;
 }
 .grey-btn{
-  background-color: #404F65;
+  background-color: #41436A;
+  color: whitesmoke;
+}
+.maroon-btn{
+  background-color: #974063;
   color: whitesmoke;
 }
 .transparent-btn{
