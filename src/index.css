@@ -37,6 +37,14 @@ a{
   background-color: #974063;
   color: whitesmoke;
 }
+.peach-btn{
+  background-color: #FF9677;
+  color: whitesmoke;
+}
+.red-btn{
+  background-color: #F54768;
+  color: whitesmoke;
+}
 .transparent-btn{
   background-color: transparent;
   border: 1px solid #404F65;
