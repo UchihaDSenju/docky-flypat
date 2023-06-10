@@ -1,5 +1,5 @@
 import '../styles/desc.css'
-import video from '../assets/video.jpg'
+import video from '../assets/cover.jpg'
 import Badge from './badge'
 
 function Desc() {
@@ -12,7 +12,7 @@ function Desc() {
             </h1>
         </div>
         <div className='desc-content content'>
-            <p className='p-20' style={{color:"black"}}>
+            <p className='p-20 grey-color-3'>
                 We’re different. Docky is the only SaaS business platform that lets you run your business on one platform, seamlessly across all digital channels.
             </p>
         </div>

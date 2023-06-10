@@ -8,7 +8,7 @@ function Start() {
             <h2 style={{color: 'whitesmoke'}}>
             "Revolutionize Your Hospital Management with Docky.”
             </h2>
-            <p className='p-20' style={{color: 'grey'}}>
+            <p className='p-20 grey-color-3'>
             Docky is a Comprehensive Hopital Management Suite. 
             </p>
         </div>
